@@ -19,3 +19,20 @@ Open virtual networks to developers
   * Physical NIC -> raw data to zMQ wire -> compressing wire -> crypting wire
   * Each virtual wire can be running in different machine, port and channel
 * zMQ can automatically distribute work among many machines (distributed firewalls, http proxies, ..)
+* Resources
+  * OpenVPN
+    * https://github.com/OpenVPN/openvpn
+    * https://github.com/OpenVPN/tap-windows6
+    * https://github.com/OpenVPN/tap-windows
+  * VirtualBox
+    * https://www.virtualbox.org/browser/vbox/trunk/src/VBox/Devices/Network
+    * https://www.virtualbox.org/browser/vbox/trunk/src/VBox/NetworkServices
+    * https://www.virtualbox.org/browser/vbox/trunk/src/VBox/HostDrivers/VBoxNetAdp
+    * https://www.virtualbox.org/browser/vbox/trunk/src/VBox/HostDrivers/VBoxNetFlt
+  * vTUN (old!)
+    * http://vtun.sourceforge.net/
+    * http://vtun.sourceforge.net/tun/index.html
+  * tinc
+    * http://www.tinc-vpn.org/
+  * SoftEther
+    * https://github.com/SoftEtherVPN/SoftEtherVPN/
